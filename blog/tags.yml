@@ -1,0 +1,92 @@
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+deck:
+  label: Deck
+  permalink: /deck
+  description: "Các bài viết liên quan đến Deck"
+
+english:
+  label: English
+  permalink: /english
+  description: "Các bộ thẻ tiếng Anh"
+
+chinese:
+  label: Tiếng Trung
+  permalink: /chinese
+  description: "Các bộ thẻ tiếng Trung"
+
+japanese:
+  label: Tiếng Nhật
+  permalink: /japanese
+  description: "Các bộ thẻ tiếng Nhật"
+
+korean:
+  label: Tiếng Hàn
+  permalink: /korean
+  description: "Các bộ thẻ tiếng Hàn"
+
+medical:
+  label: Y dược
+  permalink: /medical
+  description: "Các bộ thẻ ngành Y dược"
+
+thpt:
+  label: THPT
+  permalink: /thpt
+  description: "Các bộ thẻ bậc Trung học Phổ thông"
+
+thcs:
+  label: THCS
+  permalink: /thcs
+  description: "Các bộ thẻ bậc Trung học Cơ sở"
+
+khác:
+  label: khác
+  permalink: /khac
+  description: "Các bộ thẻ khác"
+
+listening:
+  label: Listening
+  description: Các bài viết luyện nghe tiếng Anh
+remake:
+  label: Remake
+  permalink: /remake
+  description: Các bài viết Remake
+cong-nghe-thong-tin:
+  label: Công nghệ thông tin
+  permalink: /cong-nghe-thong-tin
+  description: Các bài viết về Công nghệ thông tin
+kinh-te:
+  label: Kinh tế
+  permalink: /kinh-te
+  description: Các bài viết về Kinh tế
+collocations:
+  label: Collocations
+  permalink: /collocations
+  description: Các bài viết về Collocations
+TED-ED: # Giữ lại thẻ "TED-ED" này
+  label: TED-ED
+  description: Các bài viết về TED-ED
+grammar:
+  label: Grammar
+  permalink: /grammar
+  description: Các bài viết về Grammar
+hoc-tap:
+  label: Học tập
+  permalink: /hoc-tap
+  description: Các bài viết về Học tập
+anki:
+  label: Anki
+  permalink: /anki
+  description: Các bài viết về Anki
+ai:
+  label: AI
+  permalink: /ai
+  description: Các bài viết về AI
+toeic:
+  label: TOEIC
+  permalink: /toeic
+  description: Các bài viết về TOEIC

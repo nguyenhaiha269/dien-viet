@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "a00991db51a41da7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e1aa5b70b49fea1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7895abe72bbf57e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/english/2023-02-27-lifelong-learning-advanced-english-vocabulary.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2023-02-27-lifelong-learning-advanced-english-vocabulary"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a510fb772b1ab6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f28c6ea8a4ec0ee1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57a2b4a1b7088189",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "698ce3e881f595d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:vocabulary",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fe05f2c68f8a68df",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 389.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d9e292ba45a0cba4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d113c2d226b17de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6da4d6ecea0fda92",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "016315e679fc3289",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "d7457420442fd1bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "acecb55e36c61447",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "blog/2022-07-23-625-tu-vung-tieng-Anh-co-ban.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2022-07-23-625-tu-vung-tieng-Anh-co-ban"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7895abe72bbf57e5",
+  "lastOpenFiles": [
+    "blog/english/2023-02-27-advanced-english-vocabulary.md",
+    "blog/english/2024-03-01-200-common-english-conversation-phrases.md",
+    "docs/intro.md",
+    "blog/chinese/2025-02-01-chia-se-bo-the-hsk1-9-kinh-nghiem-hoc-va-thi-hsk6.md",
+    "build/assets/images/zk9p4gd-ff827efa6d2d76db6d9301ee87b4d156.gif",
+    "build/assets/images/x4DQ1ms-30aa7b837f32424cef8e9c7ff30174ba.gif",
+    "build/assets/images/Preview-Tiếng-Anh-THPT-3517707882241f9d1b38e3b9d43b63de.png",
+    "build/assets/images/pasted-image-20250108140547-69ae4002c74762717e347dbf059addf6.png",
+    "build/assets/images/pasted-image-20241220231649-887012e5d37acc51f422ec8551db1931.png",
+    "build/assets/images/pasted-image-20241220231653-0c23c9514816e4573427a4ed8090187d.png",
+    "build/assets/images/Pasted-image-20241219023152-ee05e0cf723a2e77f2a431a4c000512f.png",
+    "build/assets/images/Pasted-image-20241219023148-3614ed5599928932eb78fd98c0fc9cce.png",
+    "build/assets/images/Pasted-image-20241219023138-9346169ed967dcddfca1a78f106771b1.png",
+    "build/assets/images/Pasted-image-20241219020713-30e2ec3c7d6f381967c631b2b6115422.png",
+    "build/assets/images",
+    "build/lunr-index-1742540890866.json",
+    "build/search-doc-1742540890866.json",
+    "blog/chinese/2025-03-21-bo-the-hsk1-6-am-thanh-hinh-anh-nghia-viet.md",
+    "blog/english/2024-09-12-4000-tu-vung-pte-collocations-vi-du.md",
+    "build/lunr-index-1742540158773.json",
+    "build/search-doc-1742540158773.json",
+    "build/sitemap.xml",
+    "build/blog/100-Really-Learn-Phrasal-Verbs-for-Business.html",
+    "build/lunr-index-1742540073048.json",
+    "build/search-doc-1742540073048.json",
+    "build/assets/js/runtime~main.72d109b4.js",
+    "blog/english/2024-05-20-tao-bo-the-grammar-in-use-tich-hop-ai.md",
+    "blog/english/2024-01-06-3000-common-english-words.md",
+    "blog/english/2023-10-08-essential-idioms-in-english.md",
+    "blog/english/2024-06-12-destination-b1-full-version.md",
+    "blog/english/2023-10-10-1000-basic-english-words.md",
+    "blog/english/2023-09-16-2000-core-english-words-book-1-level-a1-plus.md",
+    "blog/english/2023-09-09-close-up-word-list-a1-c2-version-trieu-minh.md",
+    "blog/english/2023-07-17-ted-ed-part-2.md",
+    "blog/english/2023-04-06-3000-tu-tieng-anh.md",
+    "blog/english/2023-03-24-anki-ted-ed-song-ngu-anh-viet-part-1-remake-ver.md",
+    "blog/english/2023-02-27-lifelong-learning-advanced-english-vocabulary.md",
+    "blog/english/2023-02-27-bo-the-cambridge-vocabulary-for-ielts-20-lessons.md",
+    "blog/english/2023-01-16-target-listening-with-dictation.md",
+    "blog/english/2022-12-22-headway-5th-edition-wordlist.md",
+    "blog/english/2023-06-17-tu-cung-truong-nghia-co-trang-anh.md",
+    "blog/english/2023-06-15-tieng-anh-chuyen-nganh-cong-nghe-thong-tin.md",
+    "blog/khác/2022-06-16-200-cau-hoi-thi-bang-lai-xe-may-a1-2022.md",
+    "blog/khác/2022-06-30-600-cau-ly-thuyet-thi-bang-lai-b2-c-d.md",
+    "blog/chinese/2021-10-23-bo-the-tham-yeu-quat-sinh-hoai-nam-song-ngu-trung-viet.md",
+    "blog/chinese/2022-07-06-214-bo-thu-hanzi-pinyin-am-thanh-hinh-anh-han-viet.md"
+  ]
+}

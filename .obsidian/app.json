@@ -1,0 +1,13 @@
+{
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "static/images",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "newFileLocation": "root",
+  "newFileFolderPath": "docs",
+  "showUnsupportedFiles": true,
+  "livePreview": false,
+  "spellcheck": false,
+  "trashOption": "local",
+  "promptDelete": false
+}
