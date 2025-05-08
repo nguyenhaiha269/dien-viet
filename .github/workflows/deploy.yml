@@ -1,5 +1,38 @@
-/
-├── website/       👈 chứa toàn bộ mã nguồn Docusaurus
-├── .github/
-├── README.md
-├── index.html     👈 sau khi build xong sẽ có
+name: Build and Deploy Docusaurus to root
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        working-directory: website
+        run: npm install
+
+      - name: Build Docusaurus
+        working-directory: website
+        run: npm run build
+
+      - name: Copy build output to root
+        run: |
+          rm -rf ./* || true
+          cp -r website/build/* ./
+
+      - name: Commit and push built site to main (root)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Deploy site to root of main [auto]" || echo "No changes"
+          git push
