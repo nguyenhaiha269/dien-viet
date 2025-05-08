@@ -1,40 +1,37 @@
-name: Deploy Docusaurus to GitHub Pages
+name: Build Docusaurus to /docs on main
 
 on:
   push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
 
-      - name: Verify Docusaurus is installed
-        run: npx docusaurus --version
-
-      - name: Build website
+      - name: Build Docusaurus site
         run: npm run build
 
-      - name: Deploy website
-        env:
-          GIT_USER: ${{ github.actor }}
-          USE_SSH: false
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run deploy
+      - name: Copy build to /docs folder
+        run: |
+          rm -rf docs
+          mkdir docs
+          cp -r build/* docs/
+
+      - name: Commit & Push changes to main/docs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "chore: update static site in /docs [auto]" || echo "No changes to commit"
+          git push
